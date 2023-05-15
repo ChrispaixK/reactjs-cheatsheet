@@ -6,13 +6,13 @@
 
 ## 📗 Table of Contents
 
-- [💻 Getting Started](#💻-getting-started)
+- [💻 Getting Started](#-getting-started)
 - [📝 Notes](#-notes)
-- [👥 Authors](#👥-authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support ](#⭐️-support)
-- [🙏 Acknowledgments ](#🙏-acknowledgments)
-- [📃 License ](#📃-license)
+- [👥 Authors](#-authors)
+- [🤝 Contributing](#-contributing)
+- [⭐️ Show your support ](#-support)
+- [🙏 Acknowledgments ](#-acknowledgments)
+- [📃 License ](#-license)
 
 
 ## 💻 Getting Started
