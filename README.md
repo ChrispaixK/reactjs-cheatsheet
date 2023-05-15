@@ -10,7 +10,7 @@
 - [📝 Notes](#-notes)
 - [👥 Authors](#-authors)
 - [🤝 Contributing](#-contributing)
-- [⭐️ Support ](#-support)
+- [⭐️ Support ](#⭐️-support)
 - [🙏 Acknowledgments ](#-acknowledgments)
 - [📃 License ](#-license)
 
