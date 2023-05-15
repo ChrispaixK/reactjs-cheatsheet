@@ -12,6 +12,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support ](#⭐️-support)
 - [🙏 Acknowledgments ](#🙏-acknowledgments)
+- [📃 License ](#📃-license)
 
 
 ## 💻 Getting Started
@@ -58,9 +59,13 @@ Please note that this repository is only for React JS notes, so any contribution
 
 ## ⭐️ Support
 - I would be happy if you give this repo a star ⭐️!
-- Feel free to reach out to me via email at [kchrispaixs@gmail.com](mailto:kchrispaixs@email.com).
+- Feel free to reach out to me via email at [kchrispaixs@gmail.com](mailto:kchrispaixs@email.com)💌.
 - I am actively seeking junior developer positions 🌍
 
 
 ## 🙏 Acknowledgments 
   * [Microverse](https//:www.microverse.org)
+
+## 📃 License
+
+This project is [MIT](./MIT.md) licensed.
