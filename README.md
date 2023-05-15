@@ -7,7 +7,7 @@
 ## 📗 Table of Contents
 
 - [💻 Getting Started](#💻-getting-started)
-- [📝 Notes](#📝-notes)
+- [📝 Notes](#-notes)
 - [👥 Authors](#👥-authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support ](#⭐️-support)
