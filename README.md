@@ -8,6 +8,7 @@
 
 - [💻 Getting Started](#-getting-started)
 - [📝 Notes](#-notes)
+- [🌳 Branches](#-branches)
 - [👥 Authors](#-authors)
 - [🤝 Contributing](#-contributing)
 - [⭐️ Support ](#-show-support)
@@ -41,6 +42,18 @@ The notes are organized into different topics related to React JS. Some of the t
 * Testing with Jest
 
 Each topic includes code examples and explanations to help you understand how to use different features of React JS.
+
+## 🌳 Branches
+
+Branches are used in this repository to organize and manage this repo. The following branches serve different purposes:
+
+- `main:` The main branch contains the stable and up-to-date version of the React.js notes. It is the branch that users can rely on for the latest content.
+
+- `notes:` This branch is used specifically for adding or editing notes related to React JS.
+
+- `updates:` This branch is used to track any updates to these notes. Including revisions, new examples, or new information.
+
+- `examples:` This branch is used to add code examples to these notes.
 
 ## 👥 Authors 
 
