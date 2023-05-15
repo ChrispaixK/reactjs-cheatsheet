@@ -11,7 +11,7 @@
 - [🌳 Branches](#-branches)
 - [👥 Authors](#-authors)
 - [🤝 Contributing](#-contributing)
-- [⭐️ Show Support](#show-support)
+- [⭐️ Show Support](#show-support-⭐️)
 - [🙏 Acknowledgments ](#-acknowledgments)
 - [📃 License ](#-license)
 
@@ -70,9 +70,9 @@ I welcome contributions to this repository, whether it's through suggesting edit
 
 Please note that this repository is only for React JS notes, so any contributions should be related to that topic.
 
-##  Show support 
-- I would be happy if you give this repo a star ⭐️!
-- Feel free to reach out to me via email at [kchrispaixs@gmail.com](mailto:kchrispaixs@email.com)💌.
+##  Show support ⭐️
+- I would be happy if you give this repo a star ⭐️ !
+- Feel free to reach out to me via email at [kchrispaixs@gmail.com](mailto:kchrispaixs@email.com)💌
 - I am actively seeking junior developer positions 🌍
 
 
