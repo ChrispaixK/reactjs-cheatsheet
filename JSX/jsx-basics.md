@@ -23,7 +23,7 @@ Component Composition: JSX facilitates component composition, where you can nest
 
 Fragments: JSX also provides the `<React.Fragment>` or `<>` syntax to wrap multiple adjacent JSX elements without introducing an extra parent element. This is useful when you don't want to add an unnecessary wrapper element.
 
-```
+```jsx
 import React from 'react';
 
 const Greeting = ({ name }) => {
@@ -56,7 +56,7 @@ Embedding expressions in JSX allows you to dynamically insert JavaScript express
 
 For example, consider the following JSX code:
 
-```
+```jsx
 const name = 'Chrispaix Kaze';
 
 return <h1>Hello, {name}!</h1>;
@@ -76,21 +76,21 @@ JSX elements are fundamental units used in React to define the structure and con
 
 A JSX element is represented using tags, similar to HTML tags. For example:
 
-```
+```jsx
 const element = <div>Hello, JSX!</div>;
 ```
 In the code above, `<div>Hello, JSX!</div>` is a JSX element. It represents a `<div>` element with the text "Hello, JSX!" as its content.
 
 JSX elements can include attributes, just like HTML elements, allowing you to pass data or set properties for the components. For example:
 
-```
+```jsx
 const element = <input type="text" placeholder="Enter your name" />;
 ```
 Here, `<input type="text" placeholder="Enter your name" />` is a JSX element representing an `<input>` element with the specified attributes.
 
 JSX elements can also include other JSX elements, creating a hierarchical structure for the user interface. For example:
 
-```
+```jsx
 const element = (
   <div>
     <h1>Welcome to my React app</h1>
