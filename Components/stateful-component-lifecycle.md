@@ -54,7 +54,9 @@ In this example, the `MountingComponent` class demonstrates the mounting phase o
 
 The updating phase occurs when a stateful component is re-rendered due to changes in its props or state.
 
-* `shouldComponentUpdate(nextProps, nextState)`: This method allows you to optimize performance by controlling whether a component should re-render or not. By default, it returns true. Here's an example:
+* `shouldComponentUpdate(nextProps, nextState)`: This method allows you to optimize performance by controlling whether a component should re-render or not. By default, it returns true. 
+
+Here's an example:
 
 ```jsx
 class ExpensiveComponent extends React.Component {
@@ -68,7 +70,9 @@ class ExpensiveComponent extends React.Component {
 }
 ```
 
-* `render()`: The render method is responsible for rendering the updated JSX markup based on the new props or state. It should be a pure function without any side effects. Here's an example:
+* `render()`: The render method is responsible for rendering the updated JSX markup based on the new props or state. It should be a pure function without any side effects. 
+
+Here's an example:
 
 ```jsx
 class Message extends React.Component {
@@ -79,7 +83,9 @@ class Message extends React.Component {
 }
 ```
 
-* `componentDidUpdate(prevProps, prevState)`: This method is called immediately after a component re-renders. It's often used to perform tasks after a state or prop update. Here's an example:
+* `componentDidUpdate(prevProps, prevState)`: This method is called immediately after a component re-renders. It's often used to perform tasks after a state or prop update. 
+
+Here's an example:
 
 ```jsx
 class Logger extends React.Component {
@@ -94,7 +100,9 @@ class Logger extends React.Component {
 
 The unmounting phase occurs when a stateful component is being removed from the DOM.
 
-* `componentWillUnmount()`: This method is called just before the component is unmounted. It's used for performing any necessary cleanup tasks such as canceling network requests or removing event listeners. Here's an example:
+* `componentWillUnmount()`: This method is called just before the component is unmounted. It's used for performing any necessary cleanup tasks such as canceling network requests or removing event listeners. 
+
+Here's an example:
 
 ```jsx
 class Timer extends React.Component {
