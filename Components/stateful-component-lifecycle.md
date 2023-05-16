@@ -4,7 +4,7 @@ In React, stateful components play a vital role in managing the dynamic behavior
 
 Understanding the lifecycle of stateful components is crucial for building interactive and responsive React applications. In this section, we'll explore the different phases of the stateful component lifecycle and the associated methods for each phase. By leveraging these methods effectively, you can control state changes, synchronize with external data sources, and ensure proper resource management.
 
-*** Notes: ***The stateful component lifecycle is divided into three phases: mounting, updating, and unmounting. Each phase has associated lifecycle methods that are invoked at specific points in the component's lifecycle.
+***Notes:*** The stateful component lifecycle is divided into three phases: mounting, updating, and unmounting. Each phase has associated lifecycle methods that are invoked at specific points in the component's lifecycle.
 
 ### Mounting Phase
 
