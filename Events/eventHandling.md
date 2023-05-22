@@ -41,7 +41,7 @@ In this example:
 * The `ButtonClickCounter` component is defined as a functional component.
 * We initialize the state using `useState` with an initial value of 0. The `count` variable holds the current value of the counter, and `setCount` is the function to update the state.
 * The `handleClick` function is defined as the event handler for the button's `onClick` event. It increments the `count` value by 1 using the `setCount` function.
-* The current count value is displayed in the paragraph (`<p>`) element using `{count}` within curly braces.
+* The current count value is displayed in the paragraph `<p>` element using `{count}` within curly braces.
 * The button element has the onClick attribute set to the handleClick function, indicating that the `handleClick` function should be called when the button is clicked.
 
 When the "Click me" button is clicked, the `handleClick` function is executed, resulting in the counter value being incremented and displayed on the screen. This demonstrates how event handling in React allows components to respond to user interactions and update the state accordingly.
