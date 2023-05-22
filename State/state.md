@@ -4,13 +4,13 @@
 ## Using State in React :
 > To utilize state in React, you need to follow these steps:
 
-1. *** Initialize State ***: Start by defining the initial state of your component. This is typically done inside the component's constructor or by using hooks like useState introduced in React 16.8. The state can be an object or a primitive value.
+1. ***Initialize State*** : Start by defining the initial state of your component. This is typically done inside the component's constructor or by using hooks like useState introduced in React 16.8. The state can be an object or a primitive value.
 
-2. *** Accessing State ***: You can access the state value within the component using this.state if you're using class components or directly using the state variable if you're using functional components with hooks.
+2. ***Accessing State***: You can access the state value within the component using this.state if you're using class components or directly using the state variable if you're using functional components with hooks.
 
-3. *** Updating State ***: To update the state, you should never directly modify the state object or variable. Instead, use the provided methods such as setState in class components or the updater function returned by the state hook in functional components.
+3. ***Updating State***: To update the state, you should never directly modify the state object or variable. Instead, use the provided methods such as setState in class components or the updater function returned by the state hook in functional components.
 
-4. *** Rendering State *** : Finally, render the state data in your component's UI by referencing it within JSX using curly braces {}.
+4. ***Rendering State*** : Finally, render the state data in your component's UI by referencing it within JSX using curly braces `{}`.
 
 Let's now explore an example that demonstrates the usage of state in React.
 
