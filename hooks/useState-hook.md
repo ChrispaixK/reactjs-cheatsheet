@@ -4,13 +4,13 @@
 ## Using the useState Hook in React:
 To use the `useState` hook in React, you can follow these steps:
 
-1. Import the `useState` Hook: Import the `useState` hook from the react package.
+1. **Import the `useState` Hook**: Import the `useState` hook from the react package.
 
-2. Declare State Variables: Declare one or more state variables using the `useState` hook. Each state variable maintains its own state value.
+2. **Declare State Variables**: Declare one or more state variables using the `useState` hook. Each state variable maintains its own state value.
 
-3. Initialize State: Set an initial value for the state variable(s) by passing the initial state as an argument to the `useState` hook. The hook returns an array with two elements: the current state value and a function to update the state.
+3. **Initialize State**: Set an initial value for the state variable(s) by passing the initial state as an argument to the `useState` hook. The hook returns an array with two elements: the current state value and a function to update the state.
 
-4. Accessing and Updating State: Access the current state value by using the state variable. To update the state, call the state update function returned by the `useState` hook, passing the new value as an argument. React will re-render the component with the updated state.
+4. **Accessing and Updating State**: Access the current state value by using the state variable. To update the state, call the state update function returned by the `useState` hook, passing the new value as an argument. React will re-render the component with the updated state.
 
 Let's explore an example that demonstrates the usage of the `useState` hook in React.
 
