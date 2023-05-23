@@ -104,7 +104,7 @@ In this example:
 * We import React and the `useState` hook from the `react` package.
 * The `FormValidation` component is defined as a functional component.
 * Inside the component, we use the `useState` hook to initialize the form state variables: `name`, `email`, `nameError`, and `emailError`. We also declare their corresponding updater functions: `setName`, `setEmail`, `setNameError`, and `setEmailError`.
-* We set up event handlers (`handleNameChange` and `handleEmailChange`) to capture user input from the name and email input fields. The input values are stored in the form state variables using the state update functions.
+* We set up event handlers `handleNameChange` and `handleEmailChange` to capture user input from the name and email input fields. The input values are stored in the form state variables using the state update functions.
 * The `handleSubmit` function handles the form submission event. It prevents the default form submission behavior, performs form validation, and logs the form data if the validation is successful.
 * In the form validation logic, we check if the name field is empty and update the `nameError` state accordingly. Similarly, we validate the email field using a regular expression pattern and update the `emailError` state.
 * Error messages are conditionally rendered below the respective input fields if there are validation errors.
