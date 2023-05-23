@@ -6,7 +6,7 @@
 
 To implement dynamic routes in React Router, you can follow these steps:
 
-1. Define Dynamic Routes: Set up your route configuration by defining dynamic routes using route parameters. Route parameters are specified by adding a colon `(:)` before the parameter name in the route path.
+1. Define Dynamic Routes: Set up your route configuration by defining dynamic routes using route parameters. Route parameters are specified by adding a colon `:` before the parameter name in the route path.
 
 2. Access Route Parameters: Access the route parameters in the component rendered by the dynamic route. React Router passes the route parameters as props to the component, allowing you to access the values.
 
