@@ -29,16 +29,15 @@ git clone https://github.com/ChrispaixK/reactjs-cheatsheet.git
 
 The notes are organized into different topics related to React JS. Some of the topics covered include:
 
-* JSX syntax
 * Components
-* Props
-* State
-* Lifecycle methods
 * Events
+* JSX syntax
+* State
 * Forms
 * Hooks
-* React Router
 * Redux
+* Routes
+* Style
 * Testing with Jest
 
 Each topic includes code examples and explanations to help you understand how to use different features of React JS.
