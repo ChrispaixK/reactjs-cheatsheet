@@ -25,121 +25,121 @@ Let's explore an example that demonstrates the basics of using Redux in a React 
 In this example, we create a simple counter application that increments and decrements a counter value using Redux.
 
 1. **Install Redux**: Install Redux and React Redux by running the following command:
-```cmd
-npm install redux react-redux
-```
+    ```cmd
+    npm install redux react-redux
+    ```
 
 2. **Set Up Redux Store**: Create a Redux store using `createStore` function from Redux
-```jsx
-// index.js
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import counterReducer from './reducers/counterReducer';
-import App from './App';
+    ```jsx
+    // index.js
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import { Provider } from 'react-redux';
+    import { createStore } from 'redux';
+    import counterReducer from './reducers/counterReducer';
+    import App from './App';
 
-const store = createStore(counterReducer);
+    const store = createStore(counterReducer);
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-);
-```
+    ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('root')
+    );
+    ```
 
 3. **Define Reducers**: Create a reducer function that handles state updates based on actions.
-```jsx
-// reducers/counterReducer.js
-const initialState = {
-  count: 0
-};
+    ```jsx
+    // reducers/counterReducer.js
+    const initialState = {
+    count: 0
+    };
 
-const counterReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case 'INCREMENT':
-      return {
-        ...state,
-        count: state.count + 1
-      };
-    case 'DECREMENT':
-      return {
-        ...state,
-        count: state.count - 1
-      };
-    default:
-      return state;
-  }
-};
+    const counterReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case 'INCREMENT':
+        return {
+            ...state,
+            count: state.count + 1
+        };
+        case 'DECREMENT':
+        return {
+            ...state,
+            count: state.count - 1
+        };
+        default:
+        return state;
+    }
+    };
 
-export default counterReducer;
-```
+    export default counterReducer;
+    ```
 
 4. **Create Actions**: Define action creators that create actions to update the state.
-```jsx
-// actions/counterActions.js
-export const increment = () => {
-  return {
-    type: 'INCREMENT'
-  };
-};
+    ```jsx
+    // actions/counterActions.js
+    export const increment = () => {
+    return {
+        type: 'INCREMENT'
+    };
+    };
 
-export const decrement = () => {
-  return {
-    type: 'DECREMENT'
-  };
-};
-```
+    export const decrement = () => {
+    return {
+        type: 'DECREMENT'
+    };
+    };
+    ```
 
 5. **Dispatch Actions**: Dispatch actions to trigger state updates.
-```jsx
-// components/Counter.js
-import React from 'react';
-import { connect } from 'react-redux';
-import { increment, decrement } from '../actions/counterActions';
+    ```jsx
+    // components/Counter.js
+    import React from 'react';
+    import { connect } from 'react-redux';
+    import { increment, decrement } from '../actions/counterActions';
 
-const Counter = ({ count, increment, decrement }) => {
-  return (
-    <div>
-      <h2>Counter: {count}</h2>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
-    </div>
-  );
-};
+    const Counter = ({ count, increment, decrement }) => {
+    return (
+        <div>
+        <h2>Counter: {count}</h2>
+        <button onClick={increment}>Increment</button>
+        <button onClick={decrement}>Decrement</button>
+        </div>
+    );
+    };
 
-const mapStateToProps = (state) => {
-  return {
-    count: state.count
-  };
-};
+    const mapStateToProps = (state) => {
+    return {
+        count: state.count
+    };
+    };
 
-const mapDispatchToProps = {
-  increment,
-  decrement
-};
+    const mapDispatchToProps = {
+    increment,
+    decrement
+    };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Counter);
-```
+    export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+    ```
 
 6. **Connect Components**: Connect the `Counter` component to the Redux store using the `connect` function.
-```jsx
-// App.js
-import React from 'react';
-import Counter from './components/Counter';
+    ```jsx
+    // App.js
+    import React from 'react';
+    import Counter from './components/Counter';
 
-const App = () => {
-  return (
-    <div>
-      <h1>Redux Counter Example</h1>
-      <Counter />
-    </div>
-  );
-};
+    const App = () => {
+    return (
+        <div>
+        <h1>Redux Counter Example</h1>
+        <Counter />
+        </div>
+    );
+    };
 
-export default App;
-```
+    export default App;
+    ```
 
 In this example:
 
